@@ -16,7 +16,7 @@ class _BaseState extends State<Basepage> {
       appBar: AppBar(
         //  leading: Icon(Icon.menu),
         backgroundColor: Colors.transparent,
-        elevation: 0,
+        elevation: 20,
         title: Text('WELCOME TO MED CARE'),
         centerTitle: true,
         flexibleSpace: Container(
@@ -57,7 +57,7 @@ class _BaseState extends State<Basepage> {
                 Navigator.pop(context); // close the drawer
               },
             ),
-            ListTile(
+            /*  ListTile(
               leading: Icon(Icons.help),
               title: Text("Help"),
               onTap: () {
@@ -73,6 +73,7 @@ class _BaseState extends State<Basepage> {
                 Navigator.pop(context); // close the drawer
               },
             ),
+            */
             ListTile(
               leading: Icon(Icons.info),
               title: Text("About"),
@@ -81,7 +82,8 @@ class _BaseState extends State<Basepage> {
                 Navigator.pop(context); // close the drawer
               },
             ),
-            /*  ListTile(
+            /*
+              ListTile(
               leading: Icon(Icons.logout),
               title: Text("Logout"),
               onTap: () async {
@@ -103,7 +105,7 @@ class _BaseState extends State<Basepage> {
           padding: EdgeInsets.all(1.0),
           children: <Widget>[
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     Navigator.push(context,
@@ -122,7 +124,7 @@ class _BaseState extends State<Basepage> {
                         Text(
                           "New Med Card",
                           style: new TextStyle(
-                            fontSize: 20.0,
+                            fontSize: 17.0,
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
                           ),
@@ -132,7 +134,7 @@ class _BaseState extends State<Basepage> {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     Navigator.push(context,
@@ -150,7 +152,7 @@ class _BaseState extends State<Basepage> {
                         ),
                         Text("View Med Card",
                             style: new TextStyle(
-                              fontSize: 20.0,
+                              fontSize: 17.0,
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
                             ))
@@ -159,7 +161,7 @@ class _BaseState extends State<Basepage> {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     //  Navigator.push(context,
@@ -177,7 +179,7 @@ class _BaseState extends State<Basepage> {
                         ),
                         Text("Delete Med Card",
                             style: new TextStyle(
-                              fontSize: 20.0,
+                              fontSize: 17.0,
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
                             ))
@@ -186,7 +188,7 @@ class _BaseState extends State<Basepage> {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     Navigator.push(context,
@@ -204,7 +206,7 @@ class _BaseState extends State<Basepage> {
                         ),
                         Text("Add Reminder",
                             style: new TextStyle(
-                              fontSize: 20.0,
+                              fontSize: 17.0,
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
                             ))
@@ -213,7 +215,7 @@ class _BaseState extends State<Basepage> {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     //  Navigator.push(context,
@@ -231,7 +233,7 @@ class _BaseState extends State<Basepage> {
                         ),
                         Text("View Reminders",
                             style: new TextStyle(
-                              fontSize: 20.0,
+                              fontSize: 17.0,
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
                             ))
@@ -240,7 +242,7 @@ class _BaseState extends State<Basepage> {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.all(8.0),
+                margin: EdgeInsets.all(5.0),
                 child: InkWell(
                   onTap: () {
                     Navigator.push(context,
@@ -259,7 +261,7 @@ class _BaseState extends State<Basepage> {
                         Text(
                           "My BMI",
                           style: new TextStyle(
-                            fontSize: 20.0,
+                            fontSize: 17.0,
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
                           ),
